@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
 <head>
 <title>NR-10 - Cadastro</title>
-<meta name="description" content="Joomla - Sistema de Portal Dinâmico e de Gerenciamento de Conteúdo" />
+<meta name="description" content="Joomla - Sistema de Portal Dinï¿½mico e de Gerenciamento de Conteï¿½do" />
 <meta name="keywords" content="Joomla, joomla" />
 <meta name="Generator" content="Joomla! - Copyright (C) 2005 - 2007 Open Source Matters. All rights reserved." />
 <meta name="robots" content="index, follow" />
@@ -67,10 +67,10 @@
 													
 	<div id="yt-login">
 	
-		<form action="index.php.html" method="post" name="loginForm" >
+		<form action="index.php.html" method="get" name="loginForm" >
 				
 		<div class="yt-username">
-							<input name="username" id="mod_login_username" type="text" class="inputbox" alt="username" size="10" value="Nome de Usuário" onfocus="if(this.value=='Nome de Usuário') this.value='';" />
+							<input name="username" id="mod_login_username" type="text" class="inputbox" alt="username" size="10" value="Nome de Usuï¿½rio" onfocus="if(this.value=='Nome de Usuï¿½rio') this.value='';" />
 					</div>
 		
 		<div class="yt-password">
@@ -91,7 +91,7 @@
 		<input type="hidden" name="option" value="login" />
 		<input type="hidden" name="op2" value="login" />
 		<input type="hidden" name="lang" value="brazilian_portuguese" />
-		<input type="hidden" name="return" value="http://localhost/index.php?option=com_registration&amp;task=register&amp;Itemid=13" />
+		
 		<input type="hidden" name="message" value="0" />
 		<input type="hidden" name="force_session" value="1" />
 		<input type="hidden" name="j3e779be5cf3e1333c1c28f89eb44e20f" value="1" />
@@ -129,7 +129,7 @@
 											
 																						<div id="inset">
 												
-<form action="http://localhost/index.php?option=com_search" method="get">
+<form action="index.html" method="get">
 	<div class="search">
 		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="search" class="inputbox" type="text" size="20" value="Pesquisar..."  onblur="if(this.value=='') this.value='Pesquisar...';" onfocus="if(this.value=='Pesquisar...') this.value='';" />	</div>
 
@@ -184,32 +184,32 @@
 			if (form.name.value == "") {
 				alert( "Por favor, introduza o seu nome real." );
 			} else if (form.username.value == "") {
-				alert( "Por favor, introduza o seu Nome de Usuário." );
+				alert( "Por favor, introduza o seu Nome de Usuï¿½rio." );
 			} else if (r.exec(form.username.value) || form.username.value.length < 3) {
-				alert( "Por favor, introduza um Nome de Usuário: válido. Sem espaços ou acentos, com mais de 2 caracteres e utilizando apenas caracteres nos intervalos 0-9,a-z,A-Z" );
+				alert( "Por favor, introduza um Nome de Usuï¿½rio: vï¿½lido. Sem espaï¿½os ou acentos, com mais de 2 caracteres e utilizando apenas caracteres nos intervalos 0-9,a-z,A-Z" );
 			} else if (form.email.value == "") {
-				alert( "Por favor, introduza um endereço de e-mail válido." );
+				alert( "Por favor, introduza um endereï¿½o de e-mail vï¿½lido." );
 			} else if (form.password.value.length < 6) {
-				alert( "Por favor, introduza uma senha válida. Sem espaços, mais de 6 caracteres contendo apenas valores nos intervalos 0-9,a-z,A-Z" );
+				alert( "Por favor, introduza uma senha vï¿½lida. Sem espaï¿½os, mais de 6 caracteres contendo apenas valores nos intervalos 0-9,a-z,A-Z" );
 			} else if (form.password2.value == "") {
 				alert( "Por favor, confirme a senha." );
 			} else if ((form.password.value != "") && (form.password.value != form.password2.value)){
-				alert( "A senha e a sua confirmação não coincidem. Por favor, tente novamente." );
+				alert( "A senha e a sua confirmaï¿½ï¿½o nï¿½o coincidem. Por favor, tente novamente." );
 			} else if (r.exec(form.password.value)) {
-				alert( "Por favor, introduza uma Senha: válida. Sem espaços, com mais de 6 caracteres e utilizando apenas caracteres nos intervalos 0-9,a-z,A-Z" );
+				alert( "Por favor, introduza uma Senha: vï¿½lida. Sem espaï¿½os, com mais de 6 caracteres e utilizando apenas caracteres nos intervalos 0-9,a-z,A-Z" );
 			} else {
 				form.submit();
 			}
 		}
 		</script>
-		<form action="index.php.html" method="post" name="mosForm">
+		<form action="index.php.html" method="get" name="mosForm">
 
 		<div class="componentheading">
 			Cadastro		</div>
 
 		<table cellpadding="0" cellspacing="0" border="0" width="100%" class="contentpane">
 		<tr>
-			<td colspan="2">Os campos assinalados com asterisco (*) são obrigatórios.</td>
+			<td colspan="2">Os campos assinalados com asterisco (*) sï¿½o obrigatï¿½rios.</td>
 		</tr>
 		<tr>
 			<td width="30%">
@@ -221,7 +221,7 @@
 		</tr>
 		<tr>
 			<td>
-				Nome de Usuário: *
+				Nome de Usuï¿½rio: *
 			</td>
 			<td>
 				<input type="text" name="username" size="40" value="" class="inputbox" maxlength="25" />
@@ -319,7 +319,7 @@
 	
 	<div class="wrapper floatholder">
 		<div id="footer">
-					<div align="center">Copyright NR-10 &copy; 2008&nbsp;&nbsp; |&nbsp;&nbsp; Desenvolvido por <a href="http://www.devhouse.com.br" target="_blank">DevHouse</a> </div>				</div>
+					<div align="center">Copyright NR-10 &copy; 2008&nbsp;&nbsp; |&nbsp;&nbsp; Desenvolvido por <a href="https://leonardo-vasconcellos.vercel.app" target="_blank">Leonardo LV</a> </div>				</div>
 		
 			</div>				
 	

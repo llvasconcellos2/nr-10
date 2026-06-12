@@ -14,14 +14,14 @@
 			var form = document.frontendForm;
 			// do field validation
 			if (form.email.value == "" || form.youremail.value == "") {
-				alert( 'É necessário introduzir um e-mail válido para o remetente e para o destinatário.' );
+				alert( 'ï¿½ necessï¿½rio introduzir um e-mail vï¿½lido para o remetente e para o destinatï¿½rio.' );
 				return false;
 			}
 			return true;
 		}
 		</script>
 
-		<form action="http://localhost/index2.php?option=com_content&amp;task=emailsend" name="frontendForm" method="post" onSubmit="return submitbutton();">
+		<form action="http://localhost/index2.php?option=com_content&amp;task=emailsend" name="frontendForm" method="get" onSubmit="return submitbutton();">
 		<table cellspacing="0" cellpadding="0" border="0">
 		<tr>
 			<td colspan="2">
